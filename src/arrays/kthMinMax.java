@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
-class KthMinMax {
+public class kthMinMax {
     static void findKthMinMax(int[] arr, int k) {
         Arrays.sort(arr);
         int kthMin = arr[k - 1];
