@@ -16,6 +16,6 @@ public class Union {
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5};
         int[] b = {1, 2, 3, 6, 7};
-        System.out.println(doUnion(a, a.length, b, b.length)); // Output: 7
+        System.out.println(doUnion(a, a.length, b, b.length));
     }
 }
